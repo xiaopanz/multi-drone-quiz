@@ -29,5 +29,7 @@ Perform a seconding column scanning based on the stack of influences to evaluate
 
 https://github.com/xiaopanz/multi-drone-quiz/blob/4910d2b239bff4d7ccf9c3ca898c5c404821672d/main.py#L66-L76
 
+### Complexity Analysis
+Both time and space complexity is linear. For time complexity, it requires $O(M \times N)$ time. For space complexity, an $M \times N$ matrix is created to store the gird. 
 ### References
 Bailey, D.(2004) _An Efficient Euclidean Distance Transform_. https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.107.5775&rep=rep1&type=pdf
