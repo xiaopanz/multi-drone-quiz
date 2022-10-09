@@ -14,7 +14,7 @@ Each stack item of contains a pair of values, representing respectively a row nu
 
 For each successive row, evaluated the influence by the following equation:
 
-$$y' = y_2 + {{I_2}^2 -{I_1}^2 - (y_2 - y_1)^2} \over 2(y_2 - y_1)
+$$y' = y_2 + {{I_2}^2 -{I_1}^2 - (y_2 - y_1)^2} \over 2(y_2 - y_1)$$
 
 By the code:
 https://github.com/xiaopanz/multi-drone-quiz/blob/4910d2b239bff4d7ccf9c3ca898c5c404821672d/main.py#L52
